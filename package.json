@@ -1,18 +1,34 @@
 {
     "name": "webpack-dll-example",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Webpack DllPlugin config example",
     "main": "index.html",
-    "scripts": {},
+    "scripts": {
+        "build:dll": "cross-env NODE_ENV=development webpack --config ./webpack.dll.config.js",
+        "build": "cross-env NODE_ENV=development webpack",
+        "deploy:dll": "cross-env NODE_ENV=production webpack -p --progress --config ./webpack.dll.config.js",
+        "deploy": ""
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/vansosnin/webpack-dll-example.git"
     },
-    "keywords": ["webpack", "config", "dll", "example"],
+    "keywords": [
+        "webpack",
+        "config",
+        "dll",
+        "example"
+    ],
     "author": "Ivan Sosnin <vansosnin@gmail.com>",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/vansosnin/webpack-dll-example/issues"
     },
-    "homepage": "https://github.com/vansosnin/webpack-dll-example#readme"
+    "homepage": "https://github.com/vansosnin/webpack-dll-example#readme",
+    "dependencies": {
+        "copy-webpack-plugin": "^4.4.1",
+        "cross-env": "5.1.3",
+        "lodash": "4.17.5",
+        "webpack": "3.11.0"
+    }
 }
