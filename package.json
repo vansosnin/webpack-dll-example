@@ -1,0 +1,18 @@
+{
+    "name": "webpack-dll-example",
+    "version": "0.0.1",
+    "description": "Webpack DllPlugin config example",
+    "main": "index.html",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vansosnin/webpack-dll-example.git"
+    },
+    "keywords": ["webpack", "config", "dll", "example"],
+    "author": "Ivan Sosnin <vansosnin@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vansosnin/webpack-dll-example/issues"
+    },
+    "homepage": "https://github.com/vansosnin/webpack-dll-example#readme"
+}
