@@ -22,6 +22,7 @@ module.exports = {
             )),
         }),
 
+        // Скопирует ваши dll в папку с бандлами
         new CopyWebpackPlugin(
             [
                 {
