@@ -1,6 +1,6 @@
 # Webpack DllPlugin
 
-Пример конфигурации [webpack.DllPlugin](https://webpack.js.org/plugins/dll-plugin/) для статьи на habrahabr.
+Пример конфигурации [webpack.DllPlugin](https://webpack.js.org/plugins/dll-plugin/) для [статьи на habrahabr](https://habrahabr.ru/company/skbkontur/blog/351080/).
 
 ## Запуск
 
